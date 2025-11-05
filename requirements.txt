@@ -6,6 +6,9 @@ MarkupSafe==1.1.1
 itsdangerous==1.1.0
 click==7.1.2
 
-# ✅ Minimal DB dependencies needed by app/__init__.py
+# ✅ Minimal DB dependencies
 Flask-SQLAlchemy==2.5.1
 SQLAlchemy==1.3.24
+
+# ✅ Migration support
+Flask-Migrate==2.7.0
